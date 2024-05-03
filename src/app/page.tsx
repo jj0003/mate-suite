@@ -32,7 +32,7 @@ export default function Home() {
         </p> 
         {/* Button */}
         <Button className="text-xs text-center uppercase tracking-widest">
-          <Link href="/login">Learn more</Link>
+          <Link href="/about">Learn more</Link>
         </Button>
       </div>
 
