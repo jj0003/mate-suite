@@ -33,38 +33,14 @@ const mobileApp: { title: string; href: string; description: string }[] = [
       "Budgeting companion that let's users keep track of their expenses.",
   },
   {
-    title: "Coming Soon...",
+    title: "Cook Mate",
     href: "/docs/primitives/progress",
     description:
       "This app is currently under development, stay tuned!",
   },
-  {
-    title: "Coming Soon...",
-    href: "/docs/primitives/progress",
-    description:
-    "This app is currently under development, stay tuned!",
-  },
-  {
-    title: "Coming Soon...",
-    href: "/docs/primitives/progress",
-    description:
-    "This app is currently under development, stay tuned!",
-  },
-  {
-    title: "Coming Soon...",
-    href: "/docs/primitives/progress",
-    description:
-    "This app is currently under development, stay tuned!",
-  },
 ]
 
 const webApp: { title: string; href: string; description: string }[] = [
-  {
-    title: "Marcel Camps",
-    href: "/docs/primitives/alert-dialog",
-    description:
-      "The sculpture of Marcel Camps expresses the experiences and feelings that arise as a reflection of human relationships with his environment.",
-  },
   {
     title: "Budget Mate Website",
     href: "/docs/primitives/hover-card",
@@ -73,12 +49,14 @@ const webApp: { title: string; href: string; description: string }[] = [
   },
 ]
 
-export default function NavigationMenuDemo() {
+export default function NavigationMenuApp() {
   return (
     
     <div className="flex">
       <header className="flex-shrink-0 p-4 w-40 flex flex-col items-center justify-center">
+        <Link href="/">
         <h1 className="font-bold">MateSuite</h1>
+        </Link>
       </header>
       <NavigationMenu className="">
         <NavigationMenuList className="flex-grow">
